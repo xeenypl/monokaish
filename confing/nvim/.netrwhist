@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/xeeny/work/oses-sources/plan9/sys/src/cmd/5a'
+let g:netrw_dirhist_2='/home/xeeny/.config/fish'
+let g:netrw_dirhist_1='/home/xeeny/.config'

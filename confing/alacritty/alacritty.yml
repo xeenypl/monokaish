@@ -1,0 +1,76 @@
+window:
+  padding:
+    x: 2
+    y: 2
+
+font:
+  size: 10
+
+mouse:
+  url:
+    launcher: 
+      program: brave
+
+colors:
+  
+  # Default colors
+  primary:
+    background: '0x1B1B1B'
+    foreground: '0xffffff'
+
+  # Normal colors
+  normal:
+    black:   '0x2c2525'
+    red:     '0xfd6883'
+    green:   '0xadda78'
+    yellow:  '0xf9cc6c'
+    blue:    '0xf38d70'
+    magenta: '0xa8a9eb'
+    cyan:    '0x85dacc'
+    white:   '0xfff1f3'
+
+  # Bright colors
+  bright:
+    black:   '0x72696a'
+    red:     '0xfd6883'
+    green:   '0xadda78'
+    yellow:  '0xf9cc6c'
+    blue:    '0xf38d70'
+    magenta: '0xa8a9eb'
+    cyan:    '0x85dacc'
+    white:   '0xfff1f3'
+  #  primary:
+  #    background: "0x000000"
+  #    foreground: "0xeaeaea"
+  #    dim_foreground: "0x9a9a9a"
+  #    bright_foreground: "0xffffff"
+  #
+  #  cursor:
+  #    text: "0x000000"
+  #    cursor: "0xffffff"
+  #
+  #  selection:
+  #    text: "0xeaeaea"
+  #    background: "0x404040"
+  #
+  #  normal:
+  #    black:   "0x000000"
+  #    red:     "0xFF0000"
+  #    green:   "0x00FF00"
+  #    yellow:  "0xFFFF00"
+  #    blue:    "0x0000FF"
+  #    magenta: "0xFF00FF"
+  #    cyan:    "0x00FFFF"
+  #    white:   "0xFFFFFF"
+  #
+  #  bright:
+  #    black:   "0x555555"
+  #    red:     "0x880000"
+  #    green:   "0x00CC00"
+  #    yellow:  "0xCCCC00"
+  #    blue:    "0x0000CC"
+  #    magenta: "0xCC00CC"
+  #    cyan:    "0x00CCCC"
+  #    white:   "0xCCCCCC"
+
+background_opacity: 1

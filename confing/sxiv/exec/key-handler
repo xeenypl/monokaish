@@ -1,0 +1,21 @@
+#!/bin/sh
+
+case "$1" in
+    "C-w")
+        while read file; do
+            cp "$file" ~/.config/wallpaper
+            xwallpaper --zoom ~/.config/wallpaper
+        done
+        ;;
+    "C-c")
+        rm ~/.config/nnn/.selection
+        while read file; do
+            printf "%s\0" $(readlink -en "$file") >> ~/.config/nnn/.selection
+        done
+        ;;
+    "C-d")
+        while read file; do
+            rm "$file"
+        done
+        ;;
+esac
