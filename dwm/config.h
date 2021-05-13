@@ -76,6 +76,7 @@ static const Layout layouts[] = {
     { "L",      lstack },    /* first entry is default */
     { "",       NULL },    /* no layout function means floating behavior */
     { "M",      monocle },
+    { NULL,     NULL }
 };
 
 void movestack(const Arg *arg) {
